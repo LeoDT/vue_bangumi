@@ -1,0 +1,46 @@
+{
+    "data": {
+        "2013": {
+            "10": {
+                "path": "json/bangumi-1310.json",
+                "version": 2015090701
+            }
+        },
+        "2014": {
+            "01": {
+                "path": "json/bangumi-1401.json",
+                "version": 2015110901
+            },
+            "04": {
+                "path": "json/bangumi-1404.json",
+                "version": 2015100904
+            },
+            "07": {
+                "path": "json/bangumi-1407.json",
+                "version": 2015110901
+            },
+            "10": {
+                "path": "json/bangumi-1410.json",
+                "version": 2015100904
+            }
+        },
+        "2015": {
+            "01": {
+                "path": "json/bangumi-1501.json",
+                "version": 2015110901
+            },
+            "04": {
+                "path": "json/bangumi-1504.json",
+                "version": 2015090701
+            },
+            "07": {
+                "path": "json/bangumi-1507.json",
+                "version": 2015100904
+            },
+            "10": {
+                "path": "json/bangumi-1510.json",
+                "version": 2015112201
+            }
+        }
+    }
+}
