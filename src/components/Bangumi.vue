@@ -1,8 +1,7 @@
 <template>
-    <a v-link="{ name: 'bangumi', params: { season: '1507' }}">2015-07</a>
-    <a v-link="{ name: 'bangumi', params: { season: '1504' }}">2015-04</a>
-
     <div class="bangumi-list-wrapper">
+        <a v-link="{ name: 'bangumi', params: { season: '1507' }}">2015-07</a>
+        <a v-link="{ name: 'bangumi', params: { season: '1504' }}">2015-04</a>
         <div class="ui top attached tabular menu">
             <a v-for="tab in tabs"
                :class="['item', currentTab === $index ? 'active' : '']"
@@ -10,7 +9,7 @@
                 {{tab}}
             </a>
             <div class="right menu">
-                <div class="item">
+                <div class="item bangumi-search">
                     <div class="ui icon input">
                         <input v-model="search" type="text" placeholder="Search..." debounce="300">
                         <i class="search link icon"></i>
@@ -89,5 +88,8 @@
  }
  .bangumi-list{
      padding-left: 0;
+ }
+ .bangumi-search{
+     padding-right: 0 !important;
  }
 </style>
